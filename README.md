@@ -1,3 +1,5 @@
+![Front-End Chile](https://s3-us-west-2.amazonaws.com/nicoavila/front-end-chile-logo.png =250x)
+
 # Workshop Comunidad Front-End Chile: Introducción a Javascript
 1er Workshop de Introducción a Javascript elaborado para la Comunidad Front-end Chile. En este taller el alumno aprenderá conceptos básicos de desarrollo web y Javascript tales como:
 

@@ -87,6 +87,7 @@ var marcarResuelta = function(element) {
   localStorage.setItem(dataId, JSON.stringify(jsonTarea));
 }
 
+//Elimina una tarea desde localStorage
 var eliminarTarea = function(element) {
   if (confirm('Estas seguro que deseas eliminar esta tarea?')) {
     let tareaId = element.parentNode.getAttribute('id');
@@ -105,6 +106,7 @@ var eliminarTarea = function(element) {
   }
 }
 
+//Abre el modal de edición de tarea
 var editarTarea = function(element) {
   let tareaId = element.parentNode.getAttribute('id');
   document.getElementById('id_tarea_editada').value = tareaId;
@@ -113,6 +115,7 @@ var editarTarea = function(element) {
   document.getElementById('modal_edicion').style.display = 'block';
 }
 
+//Edita el contenido de una tarea en localStorage
 var editar = function() {
   let tareaEditada = document.getElementById('edicion_tarea_text');
   let tareaId = document.getElementById('id_tarea_editada');
@@ -134,7 +137,6 @@ function Tarea(texto, estado = 0) {
   this.texto = texto;
   this.estado = estado;
 }
-
 
 /* ------------------------------------------------------------- 
  * FUNCIONES AUXILIARES

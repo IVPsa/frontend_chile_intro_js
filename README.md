@@ -3,15 +3,15 @@
 
 * Descripción de arquitectura Cliente/Servidor
 * Los lenguajes de programación y sus implementaciones
-* Contexto de ejecución
-* BOM  y DOM
+* Contexto de ejecución y ambientes léxicos
+* BOM y DOM
 * Declaración de variables
 * Primitivas y tipos de datos
 * Operadores
 * Condicionales y bucles
-* Funciones
+* Funciones y scope
 * Objetos
 * Selectores
 * Eventos del DOM
 
-El taller tiene una duración de 6hrs.
+El taller tiene una duración de **6hrs**.

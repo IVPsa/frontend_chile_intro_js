@@ -132,6 +132,15 @@ var editar = function() {
   document.getElementById('modal_edicion').style.display = 'none';
 }
 
+//Cierra el modal
+var cerrarModal = function() {
+  let tareaEditada = document.getElementById('edicion_tarea_text');
+  let tareaId = document.getElementById('id_tarea_editada');
+  tareaId.value = '';
+  tareaEditada.value = '';
+  document.getElementById('modal_edicion').style.display = 'none';
+}
+
 //Prototipo de tarea
 function Tarea(texto, estado = 0) {
   this.texto = texto;

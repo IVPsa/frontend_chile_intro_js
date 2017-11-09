@@ -123,6 +123,12 @@ h1 {
   background: #FFFFFF;
 }
 
+.modal_background .modal_container .btn-close {
+  float:right;
+  color: #CECECE;
+  cursor: pointer;
+}
+
 .modal_background .modal_container input[type="text"] {
   width: 100%;
   border: 1px solid #AEAEAE;

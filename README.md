@@ -17,3 +17,6 @@
 * Eventos del DOM
 
 El taller tiene una duración de **6hrs**.
+
+## Inscripciones
+Las inscripciones son mediante [Welcu](https://welcu.com/front-end-chile/introduccion-a-javascript). Solo hay **25 cupos** disponibles!
